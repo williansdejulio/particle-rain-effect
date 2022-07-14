@@ -107,7 +107,7 @@ export default class Sketch {
     this.image = Array.from(Array(this.imageWidth), () => new Array(this.imageHeight));
     let canv = document.createElement("canvas");
     let ctx = canv.getContext("2d");
-    document.body.appendChild(canv);
+    //document.body.appendChild(canv);
     canv.width = this.imageWidth;
     canv.height = this.imageHeight;
     ctx.clearRect(0, 0, this.imageWidth, this.imageHeight);

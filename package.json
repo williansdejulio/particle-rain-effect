@@ -1,6 +1,6 @@
 {
   "name": "particle-rain-effect",
-  "source": "index.html",
+  "source": "index4.html",
   "dependencies": {
     "dat.gui": "^0.7.7",
     "gsap": "^3.6.0",
@@ -16,6 +16,8 @@
     "parcel": "^2.6.2"
   },
   "scripts": {
-    "start": "parcel"
+    "start": "parcel",
+    "dev": "parcel",
+    "build": "parcel build"
   }
 }
